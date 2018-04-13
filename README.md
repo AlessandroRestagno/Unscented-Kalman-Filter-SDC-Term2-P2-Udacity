@@ -41,3 +41,11 @@ OUTPUT: values provided by the c++ program to the simulator
 2. Make a build directory: mkdir build && cd build
 3. Compile: cmake .. && make
 4. Run it: ./UnscentedKF Previous versions use i/o from text files. The current state uses i/o from the simulator.
+
+## Running the filter
+From the build directory, execute `./UnscentedKF`. The output should be:
+```
+Listening to port 4567
+Connected!!!
+```
+The simulator has two different datasets
