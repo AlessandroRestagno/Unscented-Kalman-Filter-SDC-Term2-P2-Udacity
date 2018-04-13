@@ -37,7 +37,7 @@ OUTPUT: values provided by the c++ program to the simulator
 * gcc/g++ >= 5.4
 
 ## Basic Build Instructions
-Clone this repo.
-Make a build directory: mkdir build && cd build
-Compile: cmake .. && make
-Run it: ./UnscentedKF Previous versions use i/o from text files. The current state uses i/o from the simulator.
+1. Clone this repo.
+2. Make a build directory: mkdir build && cd build
+3. Compile: cmake .. && make
+4. Run it: ./UnscentedKF Previous versions use i/o from text files. The current state uses i/o from the simulator.
