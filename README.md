@@ -9,11 +9,11 @@ This repository includes two files that can be used to set up and intall uWebSoc
 
 Once the install for uWebSocketIO is complete, the main program can be built and ran by doing the following from the project top directory.
 
-* mkdir build
-* cd build
-* cmake ..
-* make
-* ./UnscentedKF
+1. mkdir build
+2. cd build
+3. cmake ..
+4. make
+5. ./UnscentedKF
 
 Tips for setting up your environment can be found here
 
@@ -32,16 +32,9 @@ OUTPUT: values provided by the c++ program to the simulator
 ["estimate_x"] <= kalman filter estimated position x ["estimate_y"] <= kalman filter estimated position y ["rmse_x"] ["rmse_y"] ["rmse_vx"] ["rmse_vy"]
 
 ## Other Important Dependencies
-cmake >= 3.5
-All OSes: click here for installation instructions
-make >= 4.1 (Linux, Mac), 3.81 (Windows)
-Linux: make is installed by default on most Linux distros
-Mac: install Xcode command line tools to get make
-Windows: Click here for installation instructions
-gcc/g++ >= 5.4
-Linux: gcc / g++ is installed by default on most Linux distros
-Mac: same deal as make - install Xcode command line tools
-Windows: recommend using MinGW
+* cmake >= 3.5
+* make >= 4.1 (Linux, Mac), 3.81 (Windows)
+* gcc/g++ >= 5.4
 
 ## Basic Build Instructions
 Clone this repo.
